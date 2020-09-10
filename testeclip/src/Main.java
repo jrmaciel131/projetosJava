@@ -1,0 +1,30 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String nome = "cesar";
+		int idade = 31;
+		double x = 10.566445564;
+		System.out.println(x);
+		System.out.printf("%.2f%n", x); //imprime apenas 2 casas decimais.
+		
+		System.out.printf("%s tem %d anos e ganha %f reais%n", nome, idade, x);
+		//%s para nome %d para int %f para flutuante e %n pula linha
+		
+		String produto1 = "Computador";
+		String produto2 = "Desk top";
+		
+		int age = 30;
+		int coide = 5290;
+		char gender = 'f';
+		double price = 2100.0;
+		double price2 = 54.2345515;
+		
+		System.out.printf("Produtos:\n%s preço de %.2f reais\n%s preço de %.2f reais\n", produto1, price, produto2, price2 );
+		
+		//math .sqrt raiz .pow potencia .avg valor absoluto
+		
+	}
+
+}
